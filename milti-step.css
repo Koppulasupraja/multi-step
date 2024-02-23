@@ -1,0 +1,28 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rm;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    background-image: url(file:///C:/Users/hi/AppData/Local/Temp/Rar$DIa11384.28103/bg-sidebar-desktop.svg);
+    
+}
+ .steps button{
+    border-radius: 200%;
+    gap: 2rem;
+
+ }
+ .grid{
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    justify-content: center;
+    align-items:center;
+ }
